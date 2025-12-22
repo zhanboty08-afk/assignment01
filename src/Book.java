@@ -39,16 +39,4 @@ public class Book {
                 ", available=" + available + "}";
     }
 
-    public static void main(String[] args) {
-        Book b = new Book("Clean Code", "Robert Martin", 2008);
-        System.out.println(b);
-        b.borrow();
-        System.out.println("After borrow: " + b);
-        b.returns();
-        System.out.println("After return: " + b);
-    }
 
-    public String getTitle() {
-        return "";
-    }
-}
