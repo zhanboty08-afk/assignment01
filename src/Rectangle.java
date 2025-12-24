@@ -16,16 +16,12 @@ public class Rectangle {
         this.height = height;
         this.id = idGen++;
     }
-
     public double area() {
         return width * height;
     }
-
     public double perimeter() {
         return 2 * (width + height);
     }
-
-    @Override
     public String toString() {
         return "Rectangle{id=" + id + ", width=" + width + ", height=" + height + "}";
     }
@@ -36,3 +32,4 @@ public class Rectangle {
         System.out.println("Perimeter = " + r.perimeter());
     }
 }
+
